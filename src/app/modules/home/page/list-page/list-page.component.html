@@ -1,0 +1,7 @@
+<p>list-page works!</p>
+<div *ngFor="let todo of todos">
+  <button (click)="onNavigateToDetail(todo.id)">ir a {{ todo.id }}</button>
+  <br />
+</div>
+
+<ngx-list></ngx-list>
